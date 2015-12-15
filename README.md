@@ -78,7 +78,7 @@ Note, if there is an error on autogen.sh, re install the pre reqs.
 
 ###Move blocks
 
-We now will move the blocks from the default location to the secondary drive, and create a static link.
+We now will move the blocks from the default location to the secondary drive, and create a static link. If you need to generate the `~/.bitcoin` directory, run the command `bitcoind`.
 
 ```
 sudo cp ~/.bitcoin/blocks /media/data/
